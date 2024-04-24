@@ -806,13 +806,13 @@ var[data-var-color="6"] { background-color: #FFBCF2; box-shadow: 0 0 0 2px #FFBC
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">WebGPU Shading Language</h1>
-   <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">Editor’s Draft</a>, <time class="dt-updated" datetime="2024-04-18">18 April 2024</time></p>
+   <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">Editor’s Draft</a>, <time class="dt-updated" datetime="2024-04-24">24 April 2024</time></p>
    <details open>
     <summary>More details about this document</summary>
     <div data-fill-with="spec-metadata">
      <dl>
       <dt>This version:
-      <dd><a class="u-url" href="https://gpuweb.github.io/gpuweb/wgsl/">https://gpuweb.github.io/gpuweb/wgsl/</a><br><a href="https://github.com/gpuweb/gpuweb/blob/618d7a1d8b41e0fff84870cb2ca595070afb150c/wgsl/index.bs">https://github.com/gpuweb/gpuweb/blob/618d7a1d8b41e0fff84870cb2ca595070afb150c/wgsl/index.bs</a>
+      <dd><a class="u-url" href="https://gpuweb.github.io/gpuweb/wgsl/">https://gpuweb.github.io/gpuweb/wgsl/</a><br><a href="https://github.com/gpuweb/gpuweb/blob/8c0681f2b5cf2d084601302a1239d358353218a6/wgsl/index.bs">https://github.com/gpuweb/gpuweb/blob/8c0681f2b5cf2d084601302a1239d358353218a6/wgsl/index.bs</a>
       <dt>Latest published version:
       <dd><a href="https://www.w3.org/TR/WGSL/">https://www.w3.org/TR/WGSL/</a>
       <dt>Feedback:
@@ -2828,8 +2828,7 @@ The token must not be a <a data-link-type="dfn" href="#keyword" id="ref-for-keyw
      <p><a data-link-type="dfn" href="#attribute-workgroup_size" id="ref-for-attribute-workgroup_size"><code>'workgroup_size'</code></a></p>
    </ul>
    <h4 class="heading settled" data-level="3.8.2" id="builtin-value-names"><span class="secno">3.8.2. </span><span class="content">Built-in Value Names</span><a class="self-link" href="#builtin-value-names"></a></h4>
-   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="built-in-value-name-token">built-in value name-token</dfn> is a <a data-link-type="dfn" href="#token" id="ref-for-token⑥">token</a> used in the name of a <a data-link-type="dfn" href="#built-in-values" id="ref-for-built-in-values">built-in value</a>.
-The spelling of the token may be the same as an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②">identifier</a> but does not <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①">resolve to</a> a declared object.</p>
+   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="built-in-value-name-token">built-in value name-token</dfn> is a <a data-link-type="dfn" href="#token" id="ref-for-token⑥">token</a> used in the name of a <a data-link-type="dfn" href="#built-in-values" id="ref-for-built-in-values">built-in value</a>.</p>
    <p>See <a href="#builtin-inputs-outputs">§ 12.3.1.1 Built-in Inputs and Outputs</a>.</p>
    <div class="syntax">
      <dfn class="dfn-paneled" data-dfn-for="syntax" data-dfn-type="dfn" data-noexport id="syntax-builtin_value_name">builtin_value_name</dfn> : 
@@ -2863,8 +2862,7 @@ The spelling of the token may be the same as an <a data-link-type="dfn" href="#i
      <p><a data-link-type="dfn" href="#built-in-values-num_workgroups" id="ref-for-built-in-values-num_workgroups"><code>'num_workgroups'</code></a></p>
    </ul>
    <h4 class="heading settled" data-level="3.8.3" id="diagnostic-rule-names"><span class="secno">3.8.3. </span><span class="content">Diagnostic Rule Names</span><a class="self-link" href="#diagnostic-rule-names"></a></h4>
-   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="diagnostic-name-token">diagnostic name-token</dfn> is a <a data-link-type="dfn" href="#token" id="ref-for-token⑦">token</a> used in the name of a diagnostic <a data-link-type="dfn" href="#diagnostic-triggering-rule" id="ref-for-diagnostic-triggering-rule⑦">triggering rule</a>.
-The spelling of the token may be the same as an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier③">identifier</a> but does not <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②">resolve to</a> a declared object.</p>
+   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="diagnostic-name-token">diagnostic name-token</dfn> is a <a data-link-type="dfn" href="#token" id="ref-for-token⑦">token</a> used in the name of a diagnostic <a data-link-type="dfn" href="#diagnostic-triggering-rule" id="ref-for-diagnostic-triggering-rule⑦">triggering rule</a>.</p>
    <p>See <a href="#diagnostics">§ 2.3 Diagnostics</a>.</p>
    <div class="syntax">
      <dfn class="dfn-paneled" data-dfn-for="syntax" data-dfn-type="dfn" data-noexport id="syntax-diagnostic_name_token">diagnostic_name_token</dfn> : 
@@ -2876,7 +2874,7 @@ The spelling of the token may be the same as an <a data-link-type="dfn" href="#i
      <p><a data-link-type="dfn" href="#trigger-derivative_uniformity" id="ref-for-trigger-derivative_uniformity①"><code>'derivative_uniformity'</code></a></p>
    </ul>
    <h4 class="heading settled" data-level="3.8.4" id="diagnostic-severity-control-names"><span class="secno">3.8.4. </span><span class="content">Diagnostic Severity Control Names</span><a class="self-link" href="#diagnostic-severity-control-names"></a></h4>
-   <p>The valid <a data-link-type="dfn" href="#diagnostic-filter" id="ref-for-diagnostic-filter④">diagnostic filter</a> severity control names are listed in <a href="#diagnostics">§ 2.3 Diagnostics</a> but have the same form as an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier④">identifier</a>:</p>
+   <p>The valid <a data-link-type="dfn" href="#diagnostic-filter" id="ref-for-diagnostic-filter④">diagnostic filter</a> severity control names are listed in <a href="#diagnostics">§ 2.3 Diagnostics</a> but have the same form as an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②">identifier</a>:</p>
    <div class="syntax">
      <dfn class="dfn-paneled" data-dfn-for="syntax" data-dfn-type="dfn" data-noexport id="syntax-severity_control_name">severity_control_name</dfn> : 
     <p><span class="choice"></span> <a data-link-type="dfn" href="#syntax-ident_pattern_token" id="ref-for-syntax-ident_pattern_token④">ident_pattern_token</a></p>
@@ -2893,7 +2891,7 @@ The spelling of the token may be the same as an <a data-link-type="dfn" href="#i
      <p><a data-link-type="dfn" href="#severity-off" id="ref-for-severity-off①"><code>'off'</code></a></p>
    </ul>
    <h4 class="heading settled" data-level="3.8.5" id="extension-names"><span class="secno">3.8.5. </span><span class="content">Extension Names</span><a class="self-link" href="#extension-names"></a></h4>
-   <p>The valid <a data-link-type="dfn" href="#enable-extension" id="ref-for-enable-extension">enable-extension</a> names are listed in <a href="#enable-extensions-sec">§ 4.1.1 Enable Extensions</a> but in general have the same form as an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier⑤">identifier</a>:</p>
+   <p>The valid <a data-link-type="dfn" href="#enable-extension" id="ref-for-enable-extension">enable-extension</a> names are listed in <a href="#enable-extensions-sec">§ 4.1.1 Enable Extensions</a> but in general have the same form as an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier③">identifier</a>:</p>
    <div class="syntax">
      <dfn class="dfn-paneled" data-dfn-for="syntax" data-dfn-type="dfn" data-noexport id="syntax-enable_extension_name">enable_extension_name</dfn> : 
     <p><span class="choice"></span> <a data-link-type="dfn" href="#syntax-ident_pattern_token" id="ref-for-syntax-ident_pattern_token⑤">ident_pattern_token</a></p>
@@ -2903,7 +2901,7 @@ The spelling of the token may be the same as an <a data-link-type="dfn" href="#i
     <li data-md>
      <p><a data-link-type="dfn" href="#extension-f16" id="ref-for-extension-f16①"><code>'f16'</code></a></p>
    </ul>
-   <p>The valid <a data-link-type="dfn" href="#language-extension" id="ref-for-language-extension">language extension</a> names are listed in <a href="#language-extensions-sec">§ 4.1.2 Language Extensions</a> but in general have the same form as an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier⑥">identifier</a>:</p>
+   <p>The valid <a data-link-type="dfn" href="#language-extension" id="ref-for-language-extension">language extension</a> names are listed in <a href="#language-extensions-sec">§ 4.1.2 Language Extensions</a> but in general have the same form as an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier④">identifier</a>:</p>
    <div class="syntax">
      <dfn class="dfn-paneled" data-dfn-for="syntax" data-dfn-type="dfn" data-noexport id="syntax-software_extension_name">software_extension_name</dfn> : 
     <p><span class="choice"></span> <a data-link-type="dfn" href="#syntax-ident_pattern_token" id="ref-for-syntax-ident_pattern_token⑥">ident_pattern_token</a></p>
@@ -2920,7 +2918,7 @@ The spelling of the token may be the same as an <a data-link-type="dfn" href="#i
      <p><a data-link-type="dfn" href="#language_extension-pointer_composite_access" id="ref-for-language_extension-pointer_composite_access"><code>'pointer_composite_access'</code></a></p>
    </ul>
    <h4 class="heading settled" data-level="3.8.6" id="interpolation-type-names"><span class="secno">3.8.6. </span><span class="content">Interpolation Type Names</span><a class="self-link" href="#interpolation-type-names"></a></h4>
-   <p>An <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="interpolation-type-name-token">interpolation type name-token</dfn> is a <a data-link-type="dfn" href="#token" id="ref-for-token⑧">token</a> used in the name of an <a data-link-type="dfn" href="#interpolation-type" id="ref-for-interpolation-type">interpolation type</a> for <a data-link-type="dfn" href="#syntax-interpolate_type_name" id="ref-for-syntax-interpolate_type_name">interpolate_type_name</a>. The spelling of the token may be the same as an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier⑦">identifier</a> but does not <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③">resolve to</a> a declared object.</p>
+   <p>An <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="interpolation-type-name-token">interpolation type name-token</dfn> is a <a data-link-type="dfn" href="#token" id="ref-for-token⑧">token</a> used in the name of an <a data-link-type="dfn" href="#interpolation-type" id="ref-for-interpolation-type">interpolation type</a> for <a data-link-type="dfn" href="#syntax-interpolate_type_name" id="ref-for-syntax-interpolate_type_name">interpolate_type_name</a>.</p>
    <p>See <a href="#interpolation">§ 12.3.1.4 Interpolation</a>.</p>
    <p>The <a data-link-type="dfn" href="#interpolation-type" id="ref-for-interpolation-type①">interpolation type</a> names are:</p>
    <ul>
@@ -2932,9 +2930,8 @@ The spelling of the token may be the same as an <a data-link-type="dfn" href="#i
      <p><a data-link-type="dfn" href="#interpolation-type-flat" id="ref-for-interpolation-type-flat"><code>'flat'</code></a></p>
    </ul>
    <h4 class="heading settled" data-level="3.8.7" id="interpolation-sampling-names"><span class="secno">3.8.7. </span><span class="content">Interpolation Sampling Names</span><a class="self-link" href="#interpolation-sampling-names"></a></h4>
-   <p>An <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="interpolation-sampling-name-token">interpolation sampling name-token</dfn> is a <a data-link-type="dfn" href="#token" id="ref-for-token⑨">token</a> used in the name of an <a data-link-type="dfn" href="#interpolation-sampling" id="ref-for-interpolation-sampling">interpolation sampling</a>.
-The spelling of the token may be the same as an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier⑧">identifier</a> but does not <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④">resolve to</a> a declared object.
-The token must not be a <a data-link-type="dfn" href="#keyword" id="ref-for-keyword③">keyword</a> or <a data-link-type="dfn" href="#reserved-word" id="ref-for-reserved-word③">reserved word</a>. See <a href="#interpolation">§ 12.3.1.4 Interpolation</a>.</p>
+   <p>An <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="interpolation-sampling-name-token">interpolation sampling name-token</dfn> is a <a data-link-type="dfn" href="#token" id="ref-for-token⑨">token</a> used in the name of an <a data-link-type="dfn" href="#interpolation-sampling" id="ref-for-interpolation-sampling">interpolation sampling</a>.</p>
+   <p>See <a href="#interpolation">§ 12.3.1.4 Interpolation</a>.</p>
    <div class="syntax">
      <dfn class="dfn-paneled" data-dfn-for="syntax" data-dfn-type="dfn" data-noexport id="syntax-interpolate_sampling_name">interpolate_sampling_name</dfn> : 
     <p><span class="choice"></span> <a data-link-type="dfn" href="#syntax-ident_pattern_token" id="ref-for-syntax-ident_pattern_token⑦">ident_pattern_token</a></p>
@@ -3394,7 +3391,7 @@ A <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creat
     <p><span class="choice"></span> <a data-link-type="dfn" href="#syntax-enable_extension_name" id="ref-for-syntax-enable_extension_name">enable_extension_name</a> ( <a data-link-type="dfn" href="#syntax_sym-comma" id="ref-for-syntax_sym-comma④"><code>','</code></a> <a data-link-type="dfn" href="#syntax-enable_extension_name" id="ref-for-syntax-enable_extension_name①">enable_extension_name</a> ) * <a data-link-type="dfn" href="#syntax_sym-comma" id="ref-for-syntax_sym-comma⑤"><code>','</code></a> ?</p>
    </div>
    <p>Like other directives, if an <a data-link-type="dfn" href="#enable-directive" id="ref-for-enable-directive①">enable directive</a> is present, it must appear before all <a data-link-type="dfn" href="#declaration" id="ref-for-declaration③">declarations</a> and <a href="#const-assert-statement">const assertions</a>.
-Extension names are not <a data-link-type="dfn" href="#identifier" id="ref-for-identifier⑨">identifiers</a>: they do not <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑤">resolve</a> to <a data-link-type="dfn" href="#declaration" id="ref-for-declaration④">declarations</a>.</p>
+Extension names are not <a data-link-type="dfn" href="#identifier" id="ref-for-identifier⑤">identifiers</a>: they do not <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①">resolve</a> to <a data-link-type="dfn" href="#declaration" id="ref-for-declaration④">declarations</a>.</p>
    <p>The valid <a data-link-type="dfn" href="#enable-extension" id="ref-for-enable-extension④">enable-extensions</a> are listed in the following table.</p>
    <table class="data">
     <caption>Enable-extensions</caption>
@@ -3455,7 +3452,7 @@ program are covered by <a data-link-type="dfn" href="#requires-directive" id="re
     <p><span class="choice"></span> <a data-link-type="dfn" href="#syntax-software_extension_name" id="ref-for-syntax-software_extension_name">software_extension_name</a> ( <a data-link-type="dfn" href="#syntax_sym-comma" id="ref-for-syntax_sym-comma⑥"><code>','</code></a> <a data-link-type="dfn" href="#syntax-software_extension_name" id="ref-for-syntax-software_extension_name①">software_extension_name</a> ) * <a data-link-type="dfn" href="#syntax_sym-comma" id="ref-for-syntax_sym-comma⑦"><code>','</code></a> ?</p>
    </div>
    <p>Like other directives, if a <a data-link-type="dfn" href="#requires-directive" id="ref-for-requires-directive②">requires-directive</a> is present, it must appear before all <a data-link-type="dfn" href="#declaration" id="ref-for-declaration⑤">declarations</a> and <a href="#const-assert-statement">const assertions</a>.
-Extension names are not <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⓪">identifiers</a>: they do not <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑥">resolve</a> to <a data-link-type="dfn" href="#declaration" id="ref-for-declaration⑥">declarations</a>.</p>
+Extension names are not <a data-link-type="dfn" href="#identifier" id="ref-for-identifier⑥">identifiers</a>: they do not <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②">resolve</a> to <a data-link-type="dfn" href="#declaration" id="ref-for-declaration⑥">declarations</a>.</p>
    <table class="data">
     <caption>Language extensions</caption>
     <thead>
@@ -3514,7 +3511,7 @@ It is spelled like the attribute form, but without the leading <code>@</code> (U
     <p><span class="choice"></span> <code>'diagnostic'</code> <a data-link-type="dfn" href="#syntax-diagnostic_control" id="ref-for-syntax-diagnostic_control">diagnostic_control</a> <a data-link-type="dfn" href="#syntax_sym-semicolon" id="ref-for-syntax_sym-semicolon⑦"><code>';'</code></a></p>
    </div>
    <h2 class="heading settled" data-level="5" id="declaration-and-scope"><span class="secno">5. </span><span class="content">Declaration and Scope</span><a class="self-link" href="#declaration-and-scope"></a></h2>
-   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="declaration">declaration</dfn> associates an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①①">identifier</a> with one of
+   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="declaration">declaration</dfn> associates an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier⑦">identifier</a> with one of
 the following kinds of objects:</p>
    <ul>
     <li data-md>
@@ -3614,7 +3611,7 @@ denotes that declared object.</p>
    </ul>
    <p>When the above algorithm is used to map an identifier to a declaration, we
 say the identifier <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="resolves">resolves</dfn> to that declaration.
-Similarly, we also say the identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑦">resolves</a> to the declared object.</p>
+Similarly, we also say the identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③">resolves</a> to the declared object.</p>
    <p>It is a <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error②①">shader-creation error</a> if any <a data-link-type="dfn" href="#module-scope" id="ref-for-module-scope⑤">module scope</a> declaration is recursive.
 That is, no cycles can exist among the declarations:</p>
    <blockquote>
@@ -3624,7 +3621,7 @@ That is, no cycles can exist among the declarations:</p>
       <p>Each node corresponds to a declaration <var>D</var>.</p>
      <li data-md>
       <p>There is an edge from declaration <var>D</var> to declaration <var>T</var> when the definition
- for <var>D</var> mentions an identifier which <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑧">resolves</a> to <var>T</var>.</p>
+ for <var>D</var> mentions an identifier which <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④">resolves</a> to <var>T</var>.</p>
     </ul>
     <p>This graph must not have a cycle.</p>
    </blockquote>
@@ -4766,7 +4763,7 @@ equal-valued element counts, even if one is signed and the other is unsigned.
 (Signed and unsigned values are comparable in this case because element counts
 are always positive.)</p>
       <li data-md>
-       <p>They are both fixed-sized with element counts specified as identifiers <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑨">resolving</a> to the same declaration of a <a data-link-type="dfn" href="#pipeline-overridable" id="ref-for-pipeline-overridable">pipeline-overridable</a> constant.</p>
+       <p>They are both fixed-sized with element counts specified as identifiers <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑤">resolving</a> to the same declaration of a <a data-link-type="dfn" href="#pipeline-overridable" id="ref-for-pipeline-overridable">pipeline-overridable</a> constant.</p>
      </ul>
    </ul>
    <div class="example wgsl fixed-size array types no-marker" id="example-ea36e790">
@@ -4831,7 +4828,7 @@ See <a href="#var-and-value">§ 7 Variable and Value Declarations</a>.</p>
      <tr class="algorithm" data-algorithm="structure type">
       <td><code>struct</code> <var>AStructName</var> {<br>   <var>M<sub>1</sub></var> : <var>T<sub>1</sub></var>,<br>   ...<br>   <var>M<sub>N</sub></var> : <var>T<sub>N</sub></var>,<br> } 
       <td>
-        A declaration of a structure type named by the <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①②">identifier</a> <var>AStructName</var> and having <var>N</var> members,
+        A declaration of a structure type named by the <a data-link-type="dfn" href="#identifier" id="ref-for-identifier⑧">identifier</a> <var>AStructName</var> and having <var>N</var> members,
            where member <var>i</var> is named by the identifier <var>M<sub><var>i</var></sub></var> and is of the type <var>T<sub><var>i</var></sub></var>. 
        <p><var>N</var> <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error③⑧">must</a> be at least 1.</p>
        <p>Two members of the same structure type <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error③⑨">must not</a> have the same name.</p>
@@ -5578,7 +5575,7 @@ This often requires using an <a data-link-type="dfn" href="#address-of" id="ref-
    <p>A reference value is formed in one of the following ways:</p>
    <ul>
     <li data-md>
-     <p>The <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①③">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⓪">resolving</a> to an <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope③">in-scope</a> variable <em>v</em> denotes the reference value for <em>v</em>'s memory.</p>
+     <p>The <a data-link-type="dfn" href="#identifier" id="ref-for-identifier⑨">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑥">resolving</a> to an <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope③">in-scope</a> variable <em>v</em> denotes the reference value for <em>v</em>'s memory.</p>
     <li data-md>
      <p>Use the <a data-link-type="dfn" href="#indirection" id="ref-for-indirection②">indirection</a> (unary <code>*</code>) operation on a pointer.</p>
     <li data-md>
@@ -6823,7 +6820,7 @@ order, with the most preferred option listed first:</p>
    </ul>
    <p>This will generally result in the best overall performance of a shader.</p>
    <h3 class="heading settled" data-level="7.2" id="value-decls"><span class="secno">7.2. </span><span class="content">Value Declarations</span><a class="self-link" href="#value-decls"></a></h3>
-   <p>When an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①④">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①①">resolves</a> to a <a data-link-type="dfn" href="#value-declaration" id="ref-for-value-declaration③">value declaration</a>, the identifier
+   <p>When an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⓪">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑦">resolves</a> to a <a data-link-type="dfn" href="#value-declaration" id="ref-for-value-declaration③">value declaration</a>, the identifier
 denotes that value.</p>
    <p>WGSL provides multiple kinds of value declarations.
 The value for each kind of declaration is fixed at a different point in the <a href="#shader-lifecycle">shader lifecycle</a>.
@@ -6954,7 +6951,7 @@ be a <a data-link-type="dfn" href="#const-expressions" id="ref-for-const-express
 Variables in address spaces other than <a data-link-type="dfn" href="#address-spaces-function" id="ref-for-address-spaces-function⑥">function</a> or <a data-link-type="dfn" href="#address-spaces-private" id="ref-for-address-spaces-private⑦">private</a> <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error⑥①">must not</a> have an
 initializer.</p>
    </ul>
-   <p>When an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⑤">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①②">resolves</a> to a variable declaration, the identifier
+   <p>When an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①①">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑧">resolves</a> to a variable declaration, the identifier
 is an expression denoting the reference <a data-link-type="dfn" href="#memory-view" id="ref-for-memory-view①④">memory view</a> for the variable’s memory,
 and its type is the variable’s <a data-link-type="dfn" href="#reference-type" id="ref-for-reference-type⑥">reference type</a>.
 See <a href="#var-identifier-expr">§ 8.11 Variable Identifier Expression</a>.</p>
@@ -7196,7 +7193,7 @@ computed from a larger class of expressions, for example, other runtime values.<
    <h4 class="heading settled" data-level="8.1.1" id="const-expr"><span class="secno">8.1.1. </span><span class="content"><code>const</code> Expressions</span><a class="self-link" href="#const-expr"></a></h4>
    <p>Expressions that can be evaluated at <a data-link-type="dfn" href="#shader-module-creation" id="ref-for-shader-module-creation①③">shader-creation
 time</a> are called <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="const-expressions">const-expressions</dfn>.
-An expression is a const-expression if all its <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⑥">identifiers</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①③">resolve</a> to:</p>
+An expression is a const-expression if all its <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①②">identifiers</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑨">resolve</a> to:</p>
    <ul>
     <li data-md>
      <p><a data-link-type="dfn" href="#const-declaration" id="ref-for-const-declaration④">const-declarations</a>, or</p>
@@ -7281,7 +7278,7 @@ the left-hand side evaluates to <code>false</code>, and so the right-hand side i
    </ul>
    <h4 class="heading settled" data-level="8.1.2" id="override-expr"><span class="secno">8.1.2. </span><span class="content"><code>override</code> Expressions</span><a class="self-link" href="#override-expr"></a></h4>
    <p>Expressions that can be evaluated at <a data-link-type="dfn" href="#pipeline-creation" id="ref-for-pipeline-creation①③">pipeline creation</a> time are called <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="override-expressions">override-expressions</dfn>.
-An expression is an override-expression if all its <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⑦">identifiers</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①④">resolve</a> to:</p>
+An expression is an override-expression if all its <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①③">identifiers</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⓪">resolve</a> to:</p>
    <ul>
     <li data-md>
      <p><a data-link-type="dfn" href="#override-declaration" id="ref-for-override-declaration⑤">override-declarations</a>, or</p>
@@ -7329,7 +7326,7 @@ time.</p>
     <li data-md>
      <p>From above, <code>x</code> is an <a data-link-type="dfn" href="#override-declaration" id="ref-for-override-declaration⑨">override-declaration</a> with the type <a data-link-type="dfn" href="#i32" id="ref-for-i32①⑥">i32</a>.</p>
     <li data-md>
-     <p><code>vec3(x,x,x)</code> is an override-expression because the only identifiers <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⑤">resolve</a> to override-declarations.</p>
+     <p><code>vec3(x,x,x)</code> is an override-expression because the only identifiers <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①①">resolve</a> to override-declarations.</p>
     <li data-md>
      <p>The type of the expression is a <a data-link-type="dfn" href="#vector" id="ref-for-vector①①">vector</a> of 3 components
 of <a data-link-type="dfn" href="#i32" id="ref-for-i32①⑦">i32</a> (<code>vec3&lt;i32></code>).</p>
@@ -8274,7 +8271,7 @@ See <a href="#function-call-statement">§ 9.5 Function Call Statement</a>.</p>
       <th>Description 
     <tbody>
      <tr class="algorithm" data-algorithm="variable reference">
-      <td> <var>v</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⑧">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⑥">resolving</a> to
+      <td> <var>v</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①④">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①②">resolving</a> to
           an <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope⑥">in-scope</a> variable declared in <a data-link-type="dfn" href="#address-spaces" id="ref-for-address-spaces①④">address space</a> <var>AS</var> with <a data-link-type="dfn" href="#store-type" id="ref-for-store-type②①">store type</a> <var>T</var> and <a data-link-type="dfn" href="#access-mode" id="ref-for-access-mode①⑧">access mode</a> <var>AM</var> 
       <td class="nowrap"> <var>v</var>: ref&lt;<var>AS</var>,<var>T</var>,<var>AM</var>> 
       <td>Result is a reference to the memory for the named variable <var>v</var>. 
@@ -8289,7 +8286,7 @@ See <a href="#function-call-statement">§ 9.5 Function Call Statement</a>.</p>
       <th>Description 
     <tbody>
      <tr class="algorithm" data-algorithm="formal parameter value">
-      <td> <var>a</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⑨">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⑦">resolving</a> to
+      <td> <var>a</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⑤">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①③">resolving</a> to
           an <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope⑦">in-scope</a> formal parameter declaration with type <var>T</var> 
       <td class="nowrap"> <var>a</var>: <var>T</var> 
       <td>Result is the value supplied for the corresponding function call operand at the <a data-link-type="dfn" href="#call-site" id="ref-for-call-site③">call site</a> invoking this instance of the function. 
@@ -8344,13 +8341,13 @@ See <a href="#function-call-statement">§ 9.5 Function Call Statement</a>.</p>
       <th>Description 
     <tbody>
      <tr class="algorithm" data-algorithm="const-declared value">
-      <td> <var>c</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⓪">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⑧">resolving</a> to
+      <td> <var>c</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⑥">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①④">resolving</a> to
           an <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope⑧">in-scope</a> <a data-link-type="dfn" href="#const-declaration" id="ref-for-const-declaration⑦">const-declaration</a> with type <var>T</var> 
       <td class="nowrap"> <var>c</var>: <var>T</var> 
       <td>Result is the value computed for the initializer expression.
            The expression is a <a data-link-type="dfn" href="#const-expressions" id="ref-for-const-expressions④③">const-expression</a>, and is evaluated at <a data-link-type="dfn" href="#shader-module-creation" id="ref-for-shader-module-creation①④">shader-creation</a> time. 
      <tr class="algorithm" data-algorithm="pipeline-overridable constant value">
-      <td> <var>c</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②①">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⑨">resolving</a> to
+      <td> <var>c</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⑦">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⑤">resolving</a> to
           an <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope⑨">in-scope</a> <a data-link-type="dfn" href="#override-declaration" id="ref-for-override-declaration①⓪">override-declaration</a> with type <var>T</var> 
       <td class="nowrap"> <var>c</var>: <var>T</var> 
       <td>
@@ -8363,7 +8360,7 @@ See <a href="#function-call-statement">§ 9.5 Function Call Statement</a>.</p>
        <p class="note" role="note"><span class="marker">Note:</span> Pipeline creation fails if no initial value was specified in the API call
            and the <code>let</code>-declaration has no initializer expression.</p>
      <tr class="algorithm" data-algorithm="let-declared value">
-      <td> <var>c</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②②">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⓪">resolving</a> to
+      <td> <var>c</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⑧">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⑥">resolving</a> to
           an <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope①⓪">in-scope</a> <a data-link-type="dfn" href="#let-declaration" id="ref-for-let-declaration⑥">let-declaration</a> with type <var>T</var> 
       <td class="nowrap"> <var>c</var>: <var>T</var> 
       <td>Result is the value computed for the initializer expression.
@@ -8380,7 +8377,7 @@ See <a href="#function-call-statement">§ 9.5 Function Call Statement</a>.</p>
       <th>Description 
     <tbody>
      <tr class="algorithm" data-algorithm="enumerant expression">
-      <td><var>e</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②③">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②①">resolving</a> to a <a data-link-type="dfn" href="#predeclared" id="ref-for-predeclared①②">predeclared</a> <a data-link-type="dfn" href="#enumerant" id="ref-for-enumerant①⓪">enumerant</a> belonging to <a data-link-type="dfn" href="#enumeration" id="ref-for-enumeration②">enumeration</a> type <var>E</var> 
+      <td><var>e</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier①⑨">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⑦">resolving</a> to a <a data-link-type="dfn" href="#predeclared" id="ref-for-predeclared①②">predeclared</a> <a data-link-type="dfn" href="#enumerant" id="ref-for-enumerant①⓪">enumerant</a> belonging to <a data-link-type="dfn" href="#enumeration" id="ref-for-enumeration②">enumeration</a> type <var>E</var> 
       <td><var>e</var> : <var>E</var> 
       <td>See <a href="#predeclared-enumerants">§ 6.3.1 Predeclared enumerants</a> 
    </table>
@@ -8394,20 +8391,20 @@ See <a href="#function-call-statement">§ 9.5 Function Call Statement</a>.</p>
       <th>Description 
     <tbody>
      <tr class="algorithm" data-algorithm="predeclared type expression">
-      <td><var>t</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②④">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②②">resolving</a> to a <a data-link-type="dfn" href="#predeclared" id="ref-for-predeclared①③">predeclared</a> <a data-link-type="dfn" href="#type" id="ref-for-type⑤">type</a> 
+      <td><var>t</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⓪">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⑧">resolving</a> to a <a data-link-type="dfn" href="#predeclared" id="ref-for-predeclared①③">predeclared</a> <a data-link-type="dfn" href="#type" id="ref-for-type⑤">type</a> 
       <td><var>t</var> : <a data-link-type="dfn" href="#alltypes" id="ref-for-alltypes">AllTypes</a> 
       <td>See <a href="#predeclared-types">§ 6.9 Predeclared Types and Type-Generators Summary</a> 
      <tr class="algorithm" data-algorithm="type alias expression">
-      <td><var>a</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⑤">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②③">resolving</a> to a <a data-link-type="dfn" href="#type-alias" id="ref-for-type-alias⑧">type alias</a>. 
+      <td><var>a</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②①">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves①⑨">resolving</a> to a <a data-link-type="dfn" href="#type-alias" id="ref-for-type-alias⑧">type alias</a>. 
       <td><var>a</var> : <a data-link-type="dfn" href="#alltypes" id="ref-for-alltypes①">AllTypes</a> 
       <td>Additionally, <var>a</var> denotes the type to which it is aliased. 
      <tr class="algorithm" data-algorithm="structure type expression">
-      <td><var>s</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⑥">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②④">resolving</a> to the declaration of a <a data-link-type="dfn" href="#structure" id="ref-for-structure①④">structure</a> type. 
+      <td><var>s</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②②">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⓪">resolving</a> to the declaration of a <a data-link-type="dfn" href="#structure" id="ref-for-structure①④">structure</a> type. 
       <td><var>s</var> : <a data-link-type="dfn" href="#alltypes" id="ref-for-alltypes②">AllTypes</a> 
       <td>Additionally, <var>s</var> denotes the structure type. 
      <tr class="algorithm" data-algorithm="predeclared type generator expression no trailing comma">
       <td rowspan="2">
-       <var>tg</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⑦">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⑤">resolving</a> to a <a data-link-type="dfn" href="#type-generator" id="ref-for-type-generator④">type-generator</a> 
+       <var>tg</var> is an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②③">identifier</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②①">resolving</a> to a <a data-link-type="dfn" href="#type-generator" id="ref-for-type-generator④">type-generator</a> 
        <p><var>e1</var>: <var>T1</var><br> ...<br> <var>eN</var>: <var>TN</var></p>
       <td><var>tg</var> <a data-link-type="dfn" href="#syntax_sym-_template_args_start" id="ref-for-syntax_sym-_template_args_start③">_template_args_start</a><br><var>e1</var>,<br>...,<br><var>eN</var><br> <a data-link-type="dfn" href="#syntax_sym-_template_args_end" id="ref-for-syntax_sym-_template_args_end③">_template_args_end</a><br>: <a data-link-type="dfn" href="#alltypes" id="ref-for-alltypes③">AllTypes</a> 
       <td rowspan="2">
@@ -8421,7 +8418,7 @@ See <a href="#function-call-statement">§ 9.5 Function Call Statement</a>.</p>
       <td><var>tg</var> <a data-link-type="dfn" href="#syntax_sym-_template_args_start" id="ref-for-syntax_sym-_template_args_start④">_template_args_start</a><br><var>e1</var>,<br>...,<br><var>eN</var>,<br> <a data-link-type="dfn" href="#syntax_sym-_template_args_end" id="ref-for-syntax_sym-_template_args_end④">_template_args_end</a><br>: <a data-link-type="dfn" href="#alltypes" id="ref-for-alltypes④">AllTypes</a> 
    </table>
    <h3 class="heading settled" data-level="8.18" id="expression-grammar"><span class="secno">8.18. </span><span class="content">Expression Grammar Summary</span><a class="self-link" href="#expression-grammar"></a></h3>
-   <p>When an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⑧">identifier</a> is the first <a data-link-type="dfn" href="#token" id="ref-for-token①①">token</a> in a <a data-link-type="dfn" href="#syntax-call_phrase" id="ref-for-syntax-call_phrase">call_phrase</a>, it is one of:</p>
+   <p>When an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②④">identifier</a> is the first <a data-link-type="dfn" href="#token" id="ref-for-token①①">token</a> in a <a data-link-type="dfn" href="#syntax-call_phrase" id="ref-for-syntax-call_phrase">call_phrase</a>, it is one of:</p>
    <ul>
     <li data-md>
      <p>The name of a <a data-link-type="dfn" href="#user-defined-function" id="ref-for-user-defined-function④">user-defined function</a> or <a data-link-type="dfn" href="#built-in-functions" id="ref-for-built-in-functions③">built-in function</a>,
@@ -8694,7 +8691,7 @@ Statements are generally executed in sequential order; however, <a href="#contro
 non-sequential order.</p>
    <h3 class="heading settled" data-level="9.1" id="compound-statement-section"><span class="secno">9.1. </span><span class="content">Compound Statement</span><a class="self-link" href="#compound-statement-section"></a></h3>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="compound-statement">compound statement</dfn> is a brace-enclosed sequence of zero or more statements.
-When a <a data-link-type="dfn" href="#declaration" id="ref-for-declaration①⓪">declaration</a> is one of those statements, its <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⑨">identifier</a> is <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope①①">in scope</a> from the start of the next statement until the end of the compound statement.</p>
+When a <a data-link-type="dfn" href="#declaration" id="ref-for-declaration①⓪">declaration</a> is one of those statements, its <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⑤">identifier</a> is <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope①①">in scope</a> from the start of the next statement until the end of the compound statement.</p>
    <div class="syntax">
      <dfn class="dfn-paneled" data-dfn-for="syntax" data-dfn-type="dfn" data-noexport id="syntax-compound_statement">compound_statement</dfn> : 
     <p><span class="choice"></span> <a data-link-type="dfn" href="#syntax-attribute" id="ref-for-syntax-attribute④">attribute</a> * <a data-link-type="dfn" href="#syntax_sym-brace_left" id="ref-for-syntax_sym-brace_left①"><code>'{'</code></a> <a data-link-type="dfn" href="#syntax-statement" id="ref-for-syntax-statement">statement</a> * <a data-link-type="dfn" href="#syntax_sym-brace_right" id="ref-for-syntax_sym-brace_right①"><code>'}'</code></a></p>
@@ -9259,7 +9256,7 @@ This check is performed at the start of each loop iteration.</p>
      <p>If <code>update_part</code> is non-empty, it becomes a <a data-link-type="dfn" href="#statement-continuing" id="ref-for-statement-continuing①">continuing</a> statement at the end of the loop body.</p>
    </ul>
    <p>The <code>initializer</code> of a for loop is executed once prior to executing the loop.
-When a <a data-link-type="dfn" href="#declaration" id="ref-for-declaration①③">declaration</a> appears in the initializer, its <a data-link-type="dfn" href="#identifier" id="ref-for-identifier③⓪">identifier</a> is <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope①②">in scope</a> until the end of the <code>body</code>.
+When a <a data-link-type="dfn" href="#declaration" id="ref-for-declaration①③">declaration</a> appears in the initializer, its <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⑥">identifier</a> is <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope①②">in scope</a> until the end of the <code>body</code>.
 Unlike declarations in the <code>body</code>, the declaration is not re-initialized each iteration.</p>
    <p>The <code>condition</code>, <code>body</code> and <code>update_part</code> execute in that order to form a loop <a data-link-type="dfn" href="#iteration" id="ref-for-iteration①">iteration</a>.
 The <code>body</code> is a special form of <a data-link-type="dfn" href="#compound-statement" id="ref-for-compound-statement⑧">compound statement</a>.
@@ -9964,7 +9961,7 @@ This is the set of statements to be executed when the function is <a data-link-t
    <p>A function declaration <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error①②④">must</a> only occur at <a data-link-type="dfn" href="#module-scope" id="ref-for-module-scope②⑥">module scope</a>.
 A function name is <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope①④">in scope</a> for the entire program.</p>
    <p class="note" role="note"><span class="marker">Note:</span> Each <a data-link-type="dfn" href="#user-defined-function" id="ref-for-user-defined-function⑥">user-defined function</a> only has one <a data-link-type="dfn" href="#overload" id="ref-for-overload②">overload</a>.</p>
-   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="formal-parameter">formal parameter</dfn> <a data-link-type="dfn" href="#declaration" id="ref-for-declaration①④">declaration</a> specifies an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier③①">identifier</a> name and a type for a value that <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error①②⑤">must</a> be
+   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="formal-parameter">formal parameter</dfn> <a data-link-type="dfn" href="#declaration" id="ref-for-declaration①④">declaration</a> specifies an <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⑦">identifier</a> name and a type for a value that <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error①②⑤">must</a> be
 provided when invoking the function.
 A formal parameter may have attributes.
 See <a href="#function-calls">§ 10.2 Function Calls</a>.
@@ -10237,11 +10234,11 @@ but each expression has a statically determinable root identifier.</p>
    <p class="algorithm" data-algorithm="finding a root identifier"> Given an expression <var>E</var> of <a data-link-type="dfn" href="#pointer-type" id="ref-for-pointer-type⑥">pointer</a> or <a data-link-type="dfn" href="#reference-type" id="ref-for-reference-type①①">reference type</a>, the <a data-link-type="dfn" href="#root-identifier" id="ref-for-root-identifier②">root identifier</a> is the <a data-link-type="dfn" href="#originating-variable" id="ref-for-originating-variable①⑦">originating variable</a> or <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter①③">formal parameter</a> of <a data-link-type="dfn" href="#pointer-type" id="ref-for-pointer-type⑦">pointer type</a> found as follows: </p>
    <ul>
     <li data-md>
-     <p>If <var>E</var> is an identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⑥">resolving</a> to a variable, then the root identifier is that variable.</p>
+     <p>If <var>E</var> is an identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②②">resolving</a> to a variable, then the root identifier is that variable.</p>
     <li data-md>
-     <p>If <var>E</var> is an identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⑦">resolving</a> to a formal parameter of pointer type, then the root identifier is that formal parameter.</p>
+     <p>If <var>E</var> is an identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②③">resolving</a> to a formal parameter of pointer type, then the root identifier is that formal parameter.</p>
     <li data-md>
-     <p>If <var>E</var> is an identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⑧">resolving</a> to a <a data-link-type="dfn" href="#let-declaration" id="ref-for-let-declaration⑧">let-declaration</a> with initializer <var>E2</var>, then the root identifier is the root identifier of <var>E2</var>.</p>
+     <p>If <var>E</var> is an identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②④">resolving</a> to a <a data-link-type="dfn" href="#let-declaration" id="ref-for-let-declaration⑧">let-declaration</a> with initializer <var>E2</var>, then the root identifier is the root identifier of <var>E2</var>.</p>
     <li data-md>
      <p>If <var>E</var> is of the form <code>(</code><var>E2</var><code>)</code>, <code>&amp;</code><var>E2</var>, <code>*</code><var>E2</var>, or <var>E2</var><code>[</code><var>Ei</var><code>]</code> then the root identifier is the root identifier of <var>E2</var>.</p>
     <li data-md>
@@ -10838,13 +10835,13 @@ The interface includes:</p>
    <p>A declaration <em>D</em> is <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="statically-accessed">statically accessed</dfn> by a shader when:</p>
    <ul>
     <li data-md>
-     <p>An identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⑨">resolving</a> to <em>D</em> appears in the <a data-link-type="dfn" href="#function-declaration" id="ref-for-function-declaration④">declaration</a> of any of the <a data-link-type="dfn" href="#functions-in-a-shader-stage" id="ref-for-functions-in-a-shader-stage②">functions in the shader stage</a>.</p>
+     <p>An identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⑤">resolving</a> to <em>D</em> appears in the <a data-link-type="dfn" href="#function-declaration" id="ref-for-function-declaration④">declaration</a> of any of the <a data-link-type="dfn" href="#functions-in-a-shader-stage" id="ref-for-functions-in-a-shader-stage②">functions in the shader stage</a>.</p>
     <li data-md>
-     <p>An identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⓪">resolving</a> to <em>D</em> is used to define a type for a <a data-link-type="dfn" href="#statically-accessed" id="ref-for-statically-accessed⑤">statically accessed</a> declaration.</p>
+     <p>An identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⑥">resolving</a> to <em>D</em> is used to define a type for a <a data-link-type="dfn" href="#statically-accessed" id="ref-for-statically-accessed⑤">statically accessed</a> declaration.</p>
     <li data-md>
-     <p>An identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③①">resolving</a> to <em>D</em> is used in the initializer for a <a data-link-type="dfn" href="#statically-accessed" id="ref-for-statically-accessed⑥">statically accessed</a> declaration.</p>
+     <p>An identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⑦">resolving</a> to <em>D</em> is used in the initializer for a <a data-link-type="dfn" href="#statically-accessed" id="ref-for-statically-accessed⑥">statically accessed</a> declaration.</p>
     <li data-md>
-     <p>An identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③②">resolving</a> to <em>D</em> is used by an attribute used by a <a data-link-type="dfn" href="#statically-accessed" id="ref-for-statically-accessed⑦">statically accessed</a> declaration.</p>
+     <p>An identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⑧">resolving</a> to <em>D</em> is used by an attribute used by a <a data-link-type="dfn" href="#statically-accessed" id="ref-for-statically-accessed⑦">statically accessed</a> declaration.</p>
    </ul>
    <div class="note" role="note">
     <span class="marker">Note:</span>Static access is recursively defined, taking into account the following: 
@@ -12939,7 +12936,7 @@ The initial value assignment produces an edge to <a data-link-type="dfn" href="#
     <li data-md>
      <p>Record the, possibly updated, initializer expression of <em>L</em>.</p>
     <li data-md>
-     <p>Substitute each <a data-link-type="dfn" href="#identifier" id="ref-for-identifier③②">identifier</a> that <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③③">resolves</a> to <em>L</em> with the recorded
+     <p>Substitute each <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⑧">identifier</a> that <a data-link-type="dfn" href="#resolves" id="ref-for-resolves②⑨">resolves</a> to <em>L</em> with the recorded
 initializer expression (wrapped in a <a href="#parenthesized-expressions">parenthesized expression</a>).</p>
    </ul>
    <p>This desugaring simplifies the subsequent analyses by exposing the <a data-link-type="dfn" href="#root-identifier" id="ref-for-root-identifier⑥">root identifier</a> of the pointer directly at each of its uses.</p>
@@ -12985,7 +12982,7 @@ and, potentially, its initial value.</p>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="full-reference">full reference</dfn> is an expression of <a data-link-type="dfn" href="#reference-type" id="ref-for-reference-type①②">reference type</a> that is one of:</p>
    <ul>
     <li data-md>
-     <p>an identifier <em>x</em> that <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③④">resolves</a> to a variable, or</p>
+     <p>an identifier <em>x</em> that <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⓪">resolves</a> to a variable, or</p>
     <li data-md>
      <p><code>(</code><em>r</em><code>)</code> where <em>r</em> is a <a data-link-type="dfn" href="#full-reference" id="ref-for-full-reference">full reference</a>, or</p>
     <li data-md>
@@ -12996,7 +12993,7 @@ and, potentially, its initial value.</p>
     <li data-md>
      <p><code>&amp;</code><em>r</em> where <em>r</em> is a <a data-link-type="dfn" href="#full-reference" id="ref-for-full-reference①">full reference</a>, or</p>
     <li data-md>
-     <p>an identifier <em>p</em> that <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⑤">resolves</a> to a <a data-link-type="dfn" href="#let-declaration" id="ref-for-let-declaration①⓪">let-declaration</a> initialized to a <a data-link-type="dfn" href="#full-pointer" id="ref-for-full-pointer①">full pointer</a>, or</p>
+     <p>an identifier <em>p</em> that <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③①">resolves</a> to a <a data-link-type="dfn" href="#let-declaration" id="ref-for-let-declaration①⓪">let-declaration</a> initialized to a <a data-link-type="dfn" href="#full-pointer" id="ref-for-full-pointer①">full pointer</a>, or</p>
     <li data-md>
      <p><code>(</code><em>p</em><code>)</code> where <em>p</em> is a <a data-link-type="dfn" href="#full-pointer" id="ref-for-full-pointer②">full pointer</a>.</p>
    </ul>
@@ -13465,7 +13462,7 @@ after the function call.</p>
       <td class="nowrap"><em>CF</em>, <em>CF</em> 
       <td>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⑥">resolving</a> to function-scope variable "x",
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③②">resolving</a> to function-scope variable "x",
       where the identifier appears as the <a data-link-type="dfn" href="#root-identifier" id="ref-for-root-identifier⑦">root identifier</a> of a <a data-link-type="dfn" href="#memory-view" id="ref-for-memory-view③②">memory view</a> expression, <em>MVE</em>, and the <a data-link-type="dfn" href="#load-rule" id="ref-for-load-rule①①">load rule</a> is invoked on <em>MVE</em> during <a data-link-type="dfn" href="#type-checking" id="ref-for-type-checking⑤">type checking</a> 
       <td><em>Result</em> 
       <td class><em>X</em> is the node corresponding to the value of "x" at the input to the statement containing this expression 
@@ -13474,7 +13471,7 @@ after the function call.</p>
        <em>Result</em> -> {<em>CF</em>, <em>X</em>} 
        <p class="note" role="note"><span class="marker">Note:</span> <em>X</em> is equivalent to <em>Vout</em>(<em>prev</em>) for "x"<br> (see <a href="#func-var-value-analysis">§ 14.2.5 Function-scope Variable Value Analysis</a>)</p>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⑦">resolving</a> to function-scope variable "x",
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③③">resolving</a> to function-scope variable "x",
       where "x" is the desugared pointer parameter <em>i</em>, and
       where the identifier appears as the <a data-link-type="dfn" href="#root-identifier" id="ref-for-root-identifier⑧">root identifier</a> of a <a data-link-type="dfn" href="#memory-view" id="ref-for-memory-view③③">memory view</a> expression, <em>MVE</em>, and the <a data-link-type="dfn" href="#load-rule" id="ref-for-load-rule①②">load rule</a> is not invoked on <em>MVE</em> during <a data-link-type="dfn" href="#type-checking" id="ref-for-type-checking⑥">type checking</a> 
       <td>
@@ -13482,20 +13479,20 @@ after the function call.</p>
       <td class="nowrap"><em>CF</em>, <a data-link-type="dfn" href="#param_i" id="ref-for-param_i⑤">param_i</a> 
       <td class>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⑧">resolving</a> to function-scope variable "x",
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③④">resolving</a> to function-scope variable "x",
       where the identifier appears as the <a data-link-type="dfn" href="#root-identifier" id="ref-for-root-identifier⑨">root identifier</a> of a <a data-link-type="dfn" href="#memory-view" id="ref-for-memory-view③④">memory view</a> expression, <em>MVE</em>, and the <a data-link-type="dfn" href="#load-rule" id="ref-for-load-rule①③">load rule</a> is not invoked on <em>MVE</em> during <a data-link-type="dfn" href="#type-checking" id="ref-for-type-checking⑦">type checking</a> 
       <td>
       <td class>
       <td class="nowrap"><em>CF</em>, <em>CF</em> 
       <td class>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⑨">resolving</a> to <a data-link-type="dfn" href="#const-declaration" id="ref-for-const-declaration⑨">const-declaration</a>, <a data-link-type="dfn" href="#override-declaration" id="ref-for-override-declaration①⑥">override-declaration</a>, <a data-link-type="dfn" href="#let-declaration" id="ref-for-let-declaration①①">let-declaration</a>, or non-built-in <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter②⓪">formal parameter</a> of <a data-link-type="dfn" href="#pointer-type" id="ref-for-pointer-type①②">non-pointer type</a> "x" 
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⑤">resolving</a> to <a data-link-type="dfn" href="#const-declaration" id="ref-for-const-declaration⑨">const-declaration</a>, <a data-link-type="dfn" href="#override-declaration" id="ref-for-override-declaration①⑥">override-declaration</a>, <a data-link-type="dfn" href="#let-declaration" id="ref-for-let-declaration①①">let-declaration</a>, or non-built-in <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter②⓪">formal parameter</a> of <a data-link-type="dfn" href="#pointer-type" id="ref-for-pointer-type①②">non-pointer type</a> "x" 
       <td><em>Result</em> 
       <td><em>X</em> is the node corresponding to "x" 
       <td class="nowrap"><em>CF</em>, <em>Result</em> 
       <td class="nowrap"><em>Result</em> -> {<em>CF</em>, <em>X</em>} 
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④⓪">resolving</a> to a <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter②①">formal parameter</a> of <a data-link-type="dfn" href="#pointer-type" id="ref-for-pointer-type①③">pointer type</a> in the <a data-link-type="dfn" href="#address-spaces-storage" id="ref-for-address-spaces-storage②①">storage</a>, <a data-link-type="dfn" href="#address-spaces-workgroup" id="ref-for-address-spaces-workgroup①⑨">workgroup</a>,
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⑥">resolving</a> to a <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter②①">formal parameter</a> of <a data-link-type="dfn" href="#pointer-type" id="ref-for-pointer-type①③">pointer type</a> in the <a data-link-type="dfn" href="#address-spaces-storage" id="ref-for-address-spaces-storage②①">storage</a>, <a data-link-type="dfn" href="#address-spaces-workgroup" id="ref-for-address-spaces-workgroup①⑨">workgroup</a>,
       or <a data-link-type="dfn" href="#address-spaces-private" id="ref-for-address-spaces-private①②">private</a> <a data-link-type="dfn" href="#address-spaces" id="ref-for-address-spaces①⑨">address spaces</a> with a non-read-only <a data-link-type="dfn" href="#access-mode" id="ref-for-access-mode②④">access mode</a> where the identifier appears as the <a data-link-type="dfn" href="#root-identifier" id="ref-for-root-identifier①⓪">root identifier</a> of a <a data-link-type="dfn" href="#memory-view" id="ref-for-memory-view③⑤">memory view</a> expression, <em>MVE</em>, and the <a data-link-type="dfn" href="#load-rule" id="ref-for-load-rule①④">load rule</a> is invoked
       on <em>MVE</em> during <a data-link-type="dfn" href="#type-checking" id="ref-for-type-checking⑧">type checking</a> 
       <td>
@@ -13503,7 +13500,7 @@ after the function call.</p>
       <td><em>CF</em>, <a data-link-type="dfn" href="#maybenonuniform" id="ref-for-maybenonuniform①③">MayBeNonUniform</a> 
       <td>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④①">resolving</a> to a <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter②②">formal parameter</a> of <a data-link-type="dfn" href="#pointer-type" id="ref-for-pointer-type①④">pointer type</a> in the <a data-link-type="dfn" href="#address-spaces-storage" id="ref-for-address-spaces-storage②②">storage</a>, <a data-link-type="dfn" href="#address-spaces-workgroup" id="ref-for-address-spaces-workgroup②⓪">workgroup</a>,
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⑦">resolving</a> to a <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter②②">formal parameter</a> of <a data-link-type="dfn" href="#pointer-type" id="ref-for-pointer-type①④">pointer type</a> in the <a data-link-type="dfn" href="#address-spaces-storage" id="ref-for-address-spaces-storage②②">storage</a>, <a data-link-type="dfn" href="#address-spaces-workgroup" id="ref-for-address-spaces-workgroup②⓪">workgroup</a>,
       or <a data-link-type="dfn" href="#address-spaces-private" id="ref-for-address-spaces-private①③">private</a> <a data-link-type="dfn" href="#address-spaces" id="ref-for-address-spaces②⓪">address spaces</a> with a non-read-only <a data-link-type="dfn" href="#access-mode" id="ref-for-access-mode②⑤">access mode</a> where the identifier appears as the <a data-link-type="dfn" href="#root-identifier" id="ref-for-root-identifier①①">root identifier</a> of a <a data-link-type="dfn" href="#memory-view" id="ref-for-memory-view③⑥">memory view</a> expression, <em>MVE</em>, and the <a data-link-type="dfn" href="#load-rule" id="ref-for-load-rule①⑤">load rule</a> is not
       invoked on <em>MVE</em> during <a data-link-type="dfn" href="#type-checking" id="ref-for-type-checking⑨">type checking</a> 
       <td>
@@ -13511,38 +13508,38 @@ after the function call.</p>
       <td><em>CF</em>, <em>CF</em> 
       <td>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④②">resolving</a> to a <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter②③">formal parameter</a> of <a data-link-type="dfn" href="#pointer-type" id="ref-for-pointer-type①⑤">pointer type</a> in an <a data-link-type="dfn" href="#address-spaces" id="ref-for-address-spaces②①">address space</a> other than <a data-link-type="dfn" href="#address-spaces-function" id="ref-for-address-spaces-function①⑨">function</a> with a read-only <a data-link-type="dfn" href="#access-mode" id="ref-for-access-mode②⑥">access mode</a> 
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⑧">resolving</a> to a <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter②③">formal parameter</a> of <a data-link-type="dfn" href="#pointer-type" id="ref-for-pointer-type①⑤">pointer type</a> in an <a data-link-type="dfn" href="#address-spaces" id="ref-for-address-spaces②①">address space</a> other than <a data-link-type="dfn" href="#address-spaces-function" id="ref-for-address-spaces-function①⑨">function</a> with a read-only <a data-link-type="dfn" href="#access-mode" id="ref-for-access-mode②⑥">access mode</a> 
       <td>
       <td>
       <td><em>CF</em>, <em>CF</em> 
       <td>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④③">resolving</a> to uniform built-in value "x" 
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves③⑨">resolving</a> to uniform built-in value "x" 
       <td>
       <td>
       <td class="nowrap"><em>CF</em>, <em>CF</em> 
       <td>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④④">resolving</a> to non-uniform built-in value "x" 
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④⓪">resolving</a> to non-uniform built-in value "x" 
       <td>
       <td>
       <td class="nowrap"><em>CF</em>,<br> <a data-link-type="dfn" href="#maybenonuniform" id="ref-for-maybenonuniform①④">MayBeNonUniform</a> 
       <td>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④⑤">resolving</a> to read-only module-scope variable "x" 
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④①">resolving</a> to read-only module-scope variable "x" 
       <td>
       <td>
       <td class="nowrap"><em>CF</em>, <em>CF</em> 
       <td>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④⑥">resolving</a> to non-read-only module-scope
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④②">resolving</a> to non-read-only module-scope
       variable "x" where the identifier appears as the <a data-link-type="dfn" href="#root-identifier" id="ref-for-root-identifier①②">root identifier</a> of a <a data-link-type="dfn" href="#memory-view" id="ref-for-memory-view③⑦">memory view</a> expression, <em>MVE</em>, and the <a data-link-type="dfn" href="#load-rule" id="ref-for-load-rule①⑥">load rule</a> is invoked on <em>MVE</em> during <a data-link-type="dfn" href="#type-checking" id="ref-for-type-checking①⓪">type checking</a> 
       <td>
       <td>
       <td class="nowrap"><em>CF</em>,<br> <a data-link-type="dfn" href="#maybenonuniform" id="ref-for-maybenonuniform①⑤">MayBeNonUniform</a> 
       <td>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④⑦">resolving</a> to non-read-only module-scope
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④③">resolving</a> to non-read-only module-scope
       variable "x" where the identifier appears as the <a data-link-type="dfn" href="#root-identifier" id="ref-for-root-identifier①③">root identifier</a> of a <a data-link-type="dfn" href="#memory-view" id="ref-for-memory-view③⑧">memory view</a> expression, <em>MVE</em>, and the <a data-link-type="dfn" href="#load-rule" id="ref-for-load-rule①⑦">load rule</a> is not invoked on <em>MVE</em> during <a data-link-type="dfn" href="#type-checking" id="ref-for-type-checking①①">type checking</a> 
       <td>
       <td>
@@ -13586,7 +13583,7 @@ other non-uniform inputs because the analysis does not analyze the <a data-link-
       <th>New edges 
     <tbody>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④⑧">resolving</a> to function-scope variable "x" 
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④④">resolving</a> to function-scope variable "x" 
       <td><em>Result</em> 
       <td><em>X</em> is the node corresponding to the value of "x" at the output of the statement containing this expression. 
       <td class="nowrap"><em>CF</em>, <em>Result</em> 
@@ -13594,13 +13591,13 @@ other non-uniform inputs because the analysis does not analyze the <a data-link-
        <em>Result</em> -> {<em>CF</em>, <em>X</em>} 
        <p class="note" role="note"><span class="marker">Note:</span> <em>X</em> is equivalent to <em>Vin</em>(<em>next</em>) for "x"<br> (see <a href="#func-var-value-analysis">§ 14.2.5 Function-scope Variable Value Analysis</a>)</p>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④⑨">resolving</a> to <a data-link-type="dfn" href="#const-declaration" id="ref-for-const-declaration①⓪">const-declaration</a>, <a data-link-type="dfn" href="#override-declaration" id="ref-for-override-declaration①⑦">override-declaration</a>, <a data-link-type="dfn" href="#let-declaration" id="ref-for-let-declaration①②">let-declaration</a>, or <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter②④">formal parameter</a> "x" 
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④⑤">resolving</a> to <a data-link-type="dfn" href="#const-declaration" id="ref-for-const-declaration①⓪">const-declaration</a>, <a data-link-type="dfn" href="#override-declaration" id="ref-for-override-declaration①⑦">override-declaration</a>, <a data-link-type="dfn" href="#let-declaration" id="ref-for-let-declaration①②">let-declaration</a>, or <a data-link-type="dfn" href="#formal-parameter" id="ref-for-formal-parameter②④">formal parameter</a> "x" 
       <td>
       <td><em>X</em> is the node corresponding to "x" 
       <td class="nowrap"><em>CF</em>, <em>X</em> 
       <td>
      <tr>
-      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑤⓪">resolving</a> to module-scope variable "x" 
+      <td>identifier <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④⑥">resolving</a> to module-scope variable "x" 
       <td>
       <td>
       <td class="nowrap"><em>CF</em>,<br> <a data-link-type="dfn" href="#maybenonuniform" id="ref-for-maybenonuniform①⑥">MayBeNonUniform</a> 
@@ -15011,7 +15008,7 @@ See <a href="#function-calls">§ 10.2 Function Calls</a>.</p>
 value of a given type.</p>
    <p>WGSL provides value constructors for all <a data-link-type="dfn" href="#predeclared" id="ref-for-predeclared①⑦">predeclared</a> types and all <a data-link-type="dfn" href="#constructible" id="ref-for-constructible②⓪">constructible</a> <a data-link-type="dfn" href="#structure" id="ref-for-structure②④">structure</a> types.
 The constructor built-in functions have the same spelling as the types.
-Wherever such a built-in function is used, the <a data-link-type="dfn" href="#identifier" id="ref-for-identifier③③">identifier</a> <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error②①⑨">must</a> be <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope①⑤">in scope</a> of the type and the <a data-link-type="dfn" href="#identifier" id="ref-for-identifier③④">identifier</a> <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error②②⓪">must not</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves⑤①">resolve</a> to another declaration.</p>
+Wherever such a built-in function is used, the <a data-link-type="dfn" href="#identifier" id="ref-for-identifier②⑨">identifier</a> <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error②①⑨">must</a> be <a data-link-type="dfn" href="#in-scope" id="ref-for-in-scope①⑤">in scope</a> of the type and the <a data-link-type="dfn" href="#identifier" id="ref-for-identifier③⓪">identifier</a> <a data-link-type="dfn" href="#shader-creation-error" id="ref-for-shader-creation-error②②⓪">must not</a> <a data-link-type="dfn" href="#resolves" id="ref-for-resolves④⑦">resolve</a> to another declaration.</p>
    <p class="note" role="note"><span class="marker">Note:</span> The structure types returned by <a href="#frexp-builtin">frexp</a>, <a href="#modf-builtin">modf</a>, and <a href="#atomic-rmw">atomicCompareExchangeWeak</a> cannot be
 written in WGSL modules.</p>
    <p class="note" role="note"><span class="marker">Note:</span> A value declaration of the type needs to be valid at that statement of
@@ -22119,7 +22116,7 @@ let dfnPanelData = {
 "host-shareable": {"dfnID":"host-shareable","dfnText":"host-shareable","external":false,"refSections":[{"refs":[{"id":"ref-for-host-shareable"},{"id":"ref-for-host-shareable\u2460"},{"id":"ref-for-host-shareable\u2461"}],"title":"7. Variable and Value Declarations"},{"refs":[{"id":"ref-for-host-shareable\u2462"},{"id":"ref-for-host-shareable\u2463"}],"title":"7.3. var Declarations"},{"refs":[{"id":"ref-for-host-shareable\u2464"},{"id":"ref-for-host-shareable\u2465"}],"title":"13.4. Memory Layout"},{"refs":[{"id":"ref-for-host-shareable\u2466"},{"id":"ref-for-host-shareable\u2467"}],"title":"13.4.1. Alignment and Size"}],"url":"#host-shareable"},
 "hyperbolic-angle": {"dfnID":"hyperbolic-angle","dfnText":"hyperbolic angle","external":false,"refSections":[{"refs":[{"id":"ref-for-hyperbolic-angle"}],"title":"16.5.3. acosh"},{"refs":[{"id":"ref-for-hyperbolic-angle\u2460"}],"title":"16.5.5. asinh"},{"refs":[{"id":"ref-for-hyperbolic-angle\u2461"}],"title":"16.5.7. atanh"},{"refs":[{"id":"ref-for-hyperbolic-angle\u2462"}],"title":"16.5.12. cosh"},{"refs":[{"id":"ref-for-hyperbolic-angle\u2463"}],"title":"16.5.56. sinh"},{"refs":[{"id":"ref-for-hyperbolic-angle\u2464"}],"title":"16.5.61. tanh"}],"url":"#hyperbolic-angle"},
 "i32": {"dfnID":"i32","dfnText":"i32","external":false,"refSections":[{"refs":[{"id":"ref-for-i32"}],"title":"3.5.2. Numeric Literals"},{"refs":[{"id":"ref-for-i32\u2460"}],"title":"5. Declaration and Scope"},{"refs":[{"id":"ref-for-i32\u2461"}],"title":"6.1.2. Conversion Rank"},{"refs":[{"id":"ref-for-i32\u2462"},{"id":"ref-for-i32\u2463"},{"id":"ref-for-i32\u2464"}],"title":"6.2.5. Scalar Types"},{"refs":[{"id":"ref-for-i32\u2465"}],"title":"6.2.8. Atomic Types"},{"refs":[{"id":"ref-for-i32\u2466"}],"title":"6.4.6. Out-of-Bounds Access"},{"refs":[{"id":"ref-for-i32\u2467"}],"title":"6.9. Predeclared Types and Type-Generators Summary"},{"refs":[{"id":"ref-for-i32\u2468"},{"id":"ref-for-i32\u2460\u24ea"},{"id":"ref-for-i32\u2460\u2460"},{"id":"ref-for-i32\u2460\u2461"}],"title":"8.1.1. const Expressions"},{"refs":[{"id":"ref-for-i32\u2460\u2462"},{"id":"ref-for-i32\u2460\u2463"},{"id":"ref-for-i32\u2460\u2464"},{"id":"ref-for-i32\u2460\u2465"},{"id":"ref-for-i32\u2460\u2466"}],"title":"8.1.2. override Expressions"},{"refs":[{"id":"ref-for-i32\u2460\u2467"}],"title":"11.1. align"},{"refs":[{"id":"ref-for-i32\u2460\u2468"}],"title":"11.2. binding"},{"refs":[{"id":"ref-for-i32\u2461\u24ea"}],"title":"11.6. group"},{"refs":[{"id":"ref-for-i32\u2461\u2460"}],"title":"11.7. id"},{"refs":[{"id":"ref-for-i32\u2461\u2461"}],"title":"11.10. location"},{"refs":[{"id":"ref-for-i32\u2461\u2462"}],"title":"11.12. size"},{"refs":[{"id":"ref-for-i32\u2461\u2463"}],"title":"11.13. workgroup_size"},{"refs":[{"id":"ref-for-i32\u2461\u2464"},{"id":"ref-for-i32\u2461\u2465"},{"id":"ref-for-i32\u2461\u2466"},{"id":"ref-for-i32\u2461\u2467"}],"title":"13.4.1. Alignment and Size"},{"refs":[{"id":"ref-for-i32\u2461\u2468"},{"id":"ref-for-i32\u2462\u24ea"}],"title":"13.4.4. Internal Layout of Values"},{"refs":[{"id":"ref-for-i32\u2462\u2460"}],"title":"13.4.5. Address Space Layout Constraints"},{"refs":[{"id":"ref-for-i32\u2462\u2461"},{"id":"ref-for-i32\u2462\u2462"},{"id":"ref-for-i32\u2462\u2463"},{"id":"ref-for-i32\u2462\u2464"}],"title":"14.6.4. Floating Point Conversion"},{"refs":[{"id":"ref-for-i32\u2462\u2465"},{"id":"ref-for-i32\u2462\u2466"},{"id":"ref-for-i32\u2462\u2467"},{"id":"ref-for-i32\u2462\u2468"},{"id":"ref-for-i32\u2463\u24ea"}],"title":"16.1.2.5. i32"},{"refs":[{"id":"ref-for-i32\u2463\u2460"}],"title":"16.1.2.16. u32"},{"refs":[{"id":"ref-for-i32\u2463\u2461"},{"id":"ref-for-i32\u2463\u2462"},{"id":"ref-for-i32\u2463\u2463"},{"id":"ref-for-i32\u2463\u2464"},{"id":"ref-for-i32\u2463\u2465"},{"id":"ref-for-i32\u2463\u2466"},{"id":"ref-for-i32\u2463\u2467"},{"id":"ref-for-i32\u2463\u2468"},{"id":"ref-for-i32\u2464\u24ea"}],"title":"16.7.1. textureDimensions"},{"refs":[{"id":"ref-for-i32\u2464\u2460"},{"id":"ref-for-i32\u2464\u2461"},{"id":"ref-for-i32\u2464\u2462"},{"id":"ref-for-i32\u2464\u2463"},{"id":"ref-for-i32\u2464\u2464"},{"id":"ref-for-i32\u2464\u2465"},{"id":"ref-for-i32\u2464\u2466"},{"id":"ref-for-i32\u2464\u2467"},{"id":"ref-for-i32\u2464\u2468"},{"id":"ref-for-i32\u2465\u24ea"},{"id":"ref-for-i32\u2465\u2460"},{"id":"ref-for-i32\u2465\u2461"},{"id":"ref-for-i32\u2465\u2462"},{"id":"ref-for-i32\u2465\u2463"},{"id":"ref-for-i32\u2465\u2464"},{"id":"ref-for-i32\u2465\u2465"},{"id":"ref-for-i32\u2465\u2466"},{"id":"ref-for-i32\u2465\u2467"}],"title":"16.7.2. textureGather"},{"refs":[{"id":"ref-for-i32\u2465\u2468"},{"id":"ref-for-i32\u2466\u24ea"},{"id":"ref-for-i32\u2466\u2460"}],"title":"16.7.3. textureGatherCompare"},{"refs":[{"id":"ref-for-i32\u2466\u2461"},{"id":"ref-for-i32\u2466\u2462"},{"id":"ref-for-i32\u2466\u2463"},{"id":"ref-for-i32\u2466\u2464"},{"id":"ref-for-i32\u2466\u2465"},{"id":"ref-for-i32\u2466\u2466"},{"id":"ref-for-i32\u2466\u2467"},{"id":"ref-for-i32\u2466\u2468"},{"id":"ref-for-i32\u2467\u24ea"},{"id":"ref-for-i32\u2467\u2460"},{"id":"ref-for-i32\u2467\u2461"},{"id":"ref-for-i32\u2467\u2462"},{"id":"ref-for-i32\u2467\u2463"},{"id":"ref-for-i32\u2467\u2464"},{"id":"ref-for-i32\u2467\u2465"},{"id":"ref-for-i32\u2467\u2466"},{"id":"ref-for-i32\u2467\u2467"},{"id":"ref-for-i32\u2467\u2468"},{"id":"ref-for-i32\u2468\u24ea"},{"id":"ref-for-i32\u2468\u2460"},{"id":"ref-for-i32\u2468\u2461"},{"id":"ref-for-i32\u2468\u2462"},{"id":"ref-for-i32\u2468\u2463"},{"id":"ref-for-i32\u2468\u2464"},{"id":"ref-for-i32\u2468\u2465"},{"id":"ref-for-i32\u2468\u2466"},{"id":"ref-for-i32\u2468\u2467"},{"id":"ref-for-i32\u2468\u2468"},{"id":"ref-for-i32\u2460\u24ea\u24ea"}],"title":"16.7.4. textureLoad"},{"refs":[{"id":"ref-for-i32\u2460\u24ea\u2460"}],"title":"16.7.5. textureNumLayers"},{"refs":[{"id":"ref-for-i32\u2460\u24ea\u2461"}],"title":"16.7.6. textureNumLevels"},{"refs":[{"id":"ref-for-i32\u2460\u24ea\u2462"}],"title":"16.7.7. textureNumSamples"},{"refs":[{"id":"ref-for-i32\u2460\u24ea\u2463"},{"id":"ref-for-i32\u2460\u24ea\u2464"},{"id":"ref-for-i32\u2460\u24ea\u2465"},{"id":"ref-for-i32\u2460\u24ea\u2466"},{"id":"ref-for-i32\u2460\u24ea\u2467"},{"id":"ref-for-i32\u2460\u24ea\u2468"}],"title":"16.7.8. textureSample"},{"refs":[{"id":"ref-for-i32\u2460\u2460\u24ea"},{"id":"ref-for-i32\u2460\u2460\u2460"},{"id":"ref-for-i32\u2460\u2460\u2461"}],"title":"16.7.9. textureSampleBias"},{"refs":[{"id":"ref-for-i32\u2460\u2460\u2462"},{"id":"ref-for-i32\u2460\u2460\u2463"},{"id":"ref-for-i32\u2460\u2460\u2464"}],"title":"16.7.10. textureSampleCompare"},{"refs":[{"id":"ref-for-i32\u2460\u2460\u2465"},{"id":"ref-for-i32\u2460\u2460\u2466"},{"id":"ref-for-i32\u2460\u2460\u2467"}],"title":"16.7.11. textureSampleCompareLevel"},{"refs":[{"id":"ref-for-i32\u2460\u2460\u2468"},{"id":"ref-for-i32\u2460\u2461\u24ea"},{"id":"ref-for-i32\u2460\u2461\u2460"}],"title":"16.7.12. textureSampleGrad"},{"refs":[{"id":"ref-for-i32\u2460\u2461\u2461"},{"id":"ref-for-i32\u2460\u2461\u2462"},{"id":"ref-for-i32\u2460\u2461\u2463"},{"id":"ref-for-i32\u2460\u2461\u2464"},{"id":"ref-for-i32\u2460\u2461\u2465"},{"id":"ref-for-i32\u2460\u2461\u2466"},{"id":"ref-for-i32\u2460\u2461\u2467"},{"id":"ref-for-i32\u2460\u2461\u2468"},{"id":"ref-for-i32\u2460\u2462\u24ea"},{"id":"ref-for-i32\u2460\u2462\u2460"},{"id":"ref-for-i32\u2460\u2462\u2461"},{"id":"ref-for-i32\u2460\u2462\u2462"}],"title":"16.7.13. textureSampleLevel"},{"refs":[{"id":"ref-for-i32\u2460\u2462\u2463"},{"id":"ref-for-i32\u2460\u2462\u2464"},{"id":"ref-for-i32\u2460\u2462\u2465"},{"id":"ref-for-i32\u2460\u2462\u2466"},{"id":"ref-for-i32\u2460\u2462\u2467"}],"title":"16.7.15. textureStore"},{"refs":[{"id":"ref-for-i32\u2460\u2462\u2468"}],"title":"16.8. Atomic Built-in Functions"}],"url":"#i32"},
-"identifier": {"dfnID":"identifier","dfnText":"identifier","external":false,"refSections":[{"refs":[{"id":"ref-for-identifier"}],"title":"3.4. Tokens"},{"refs":[{"id":"ref-for-identifier\u2460"}],"title":"3.8. Context-Dependent Names"},{"refs":[{"id":"ref-for-identifier\u2461"}],"title":"3.8.2. Built-in Value Names"},{"refs":[{"id":"ref-for-identifier\u2462"}],"title":"3.8.3. Diagnostic Rule Names"},{"refs":[{"id":"ref-for-identifier\u2463"}],"title":"3.8.4. Diagnostic Severity Control Names"},{"refs":[{"id":"ref-for-identifier\u2464"},{"id":"ref-for-identifier\u2465"}],"title":"3.8.5. Extension Names"},{"refs":[{"id":"ref-for-identifier\u2466"}],"title":"3.8.6. Interpolation Type Names"},{"refs":[{"id":"ref-for-identifier\u2467"}],"title":"3.8.7. Interpolation Sampling Names"},{"refs":[{"id":"ref-for-identifier\u2468"}],"title":"4.1.1. Enable Extensions"},{"refs":[{"id":"ref-for-identifier\u2460\u24ea"}],"title":"4.1.2. Language Extensions"},{"refs":[{"id":"ref-for-identifier\u2460\u2460"}],"title":"5. Declaration and Scope"},{"refs":[{"id":"ref-for-identifier\u2460\u2461"}],"title":"6.2.10. Structure Types"},{"refs":[{"id":"ref-for-identifier\u2460\u2462"}],"title":"6.4.8. Forming Reference and Pointer Values"},{"refs":[{"id":"ref-for-identifier\u2460\u2463"}],"title":"7.2. Value Declarations"},{"refs":[{"id":"ref-for-identifier\u2460\u2464"}],"title":"7.3. var Declarations"},{"refs":[{"id":"ref-for-identifier\u2460\u2465"}],"title":"8.1.1. const Expressions"},{"refs":[{"id":"ref-for-identifier\u2460\u2466"}],"title":"8.1.2. override Expressions"},{"refs":[{"id":"ref-for-identifier\u2460\u2467"}],"title":"8.11. Variable Identifier Expression"},{"refs":[{"id":"ref-for-identifier\u2460\u2468"}],"title":"8.12. Formal Parameter Expression"},{"refs":[{"id":"ref-for-identifier\u2461\u24ea"},{"id":"ref-for-identifier\u2461\u2460"},{"id":"ref-for-identifier\u2461\u2461"}],"title":"8.15. Identifier Expressions for Value Declarations"},{"refs":[{"id":"ref-for-identifier\u2461\u2462"}],"title":"8.16. Enumeration Expressions"},{"refs":[{"id":"ref-for-identifier\u2461\u2463"},{"id":"ref-for-identifier\u2461\u2464"},{"id":"ref-for-identifier\u2461\u2465"},{"id":"ref-for-identifier\u2461\u2466"}],"title":"8.17. Type Expressions"},{"refs":[{"id":"ref-for-identifier\u2461\u2467"}],"title":"8.18. Expression Grammar Summary"},{"refs":[{"id":"ref-for-identifier\u2461\u2468"}],"title":"9.1. Compound Statement"},{"refs":[{"id":"ref-for-identifier\u2462\u24ea"}],"title":"9.4.4. For Statement"},{"refs":[{"id":"ref-for-identifier\u2462\u2460"}],"title":"10.1. Declaring a User-defined Function"},{"refs":[{"id":"ref-for-identifier\u2462\u2461"}],"title":"14.2.4. Pointer Desugaring"},{"refs":[{"id":"ref-for-identifier\u2462\u2462"},{"id":"ref-for-identifier\u2462\u2463"}],"title":"16.1. Constructor Built-in Functions"}],"url":"#identifier"},
+"identifier": {"dfnID":"identifier","dfnText":"identifier","external":false,"refSections":[{"refs":[{"id":"ref-for-identifier"}],"title":"3.4. Tokens"},{"refs":[{"id":"ref-for-identifier\u2460"}],"title":"3.8. Context-Dependent Names"},{"refs":[{"id":"ref-for-identifier\u2461"}],"title":"3.8.4. Diagnostic Severity Control Names"},{"refs":[{"id":"ref-for-identifier\u2462"},{"id":"ref-for-identifier\u2463"}],"title":"3.8.5. Extension Names"},{"refs":[{"id":"ref-for-identifier\u2464"}],"title":"4.1.1. Enable Extensions"},{"refs":[{"id":"ref-for-identifier\u2465"}],"title":"4.1.2. Language Extensions"},{"refs":[{"id":"ref-for-identifier\u2466"}],"title":"5. Declaration and Scope"},{"refs":[{"id":"ref-for-identifier\u2467"}],"title":"6.2.10. Structure Types"},{"refs":[{"id":"ref-for-identifier\u2468"}],"title":"6.4.8. Forming Reference and Pointer Values"},{"refs":[{"id":"ref-for-identifier\u2460\u24ea"}],"title":"7.2. Value Declarations"},{"refs":[{"id":"ref-for-identifier\u2460\u2460"}],"title":"7.3. var Declarations"},{"refs":[{"id":"ref-for-identifier\u2460\u2461"}],"title":"8.1.1. const Expressions"},{"refs":[{"id":"ref-for-identifier\u2460\u2462"}],"title":"8.1.2. override Expressions"},{"refs":[{"id":"ref-for-identifier\u2460\u2463"}],"title":"8.11. Variable Identifier Expression"},{"refs":[{"id":"ref-for-identifier\u2460\u2464"}],"title":"8.12. Formal Parameter Expression"},{"refs":[{"id":"ref-for-identifier\u2460\u2465"},{"id":"ref-for-identifier\u2460\u2466"},{"id":"ref-for-identifier\u2460\u2467"}],"title":"8.15. Identifier Expressions for Value Declarations"},{"refs":[{"id":"ref-for-identifier\u2460\u2468"}],"title":"8.16. Enumeration Expressions"},{"refs":[{"id":"ref-for-identifier\u2461\u24ea"},{"id":"ref-for-identifier\u2461\u2460"},{"id":"ref-for-identifier\u2461\u2461"},{"id":"ref-for-identifier\u2461\u2462"}],"title":"8.17. Type Expressions"},{"refs":[{"id":"ref-for-identifier\u2461\u2463"}],"title":"8.18. Expression Grammar Summary"},{"refs":[{"id":"ref-for-identifier\u2461\u2464"}],"title":"9.1. Compound Statement"},{"refs":[{"id":"ref-for-identifier\u2461\u2465"}],"title":"9.4.4. For Statement"},{"refs":[{"id":"ref-for-identifier\u2461\u2466"}],"title":"10.1. Declaring a User-defined Function"},{"refs":[{"id":"ref-for-identifier\u2461\u2467"}],"title":"14.2.4. Pointer Desugaring"},{"refs":[{"id":"ref-for-identifier\u2461\u2468"},{"id":"ref-for-identifier\u2462\u24ea"}],"title":"16.1. Constructor Built-in Functions"}],"url":"#identifier"},
 "in-bounds-index": {"dfnID":"in-bounds-index","dfnText":"in-bounds index","external":false,"refSections":[{"refs":[{"id":"ref-for-in-bounds-index"}],"title":"6.4.4. Valid and Invalid Memory References"},{"refs":[{"id":"ref-for-in-bounds-index\u2460"}],"title":"8.5. Composite Value Decomposition Expressions"}],"url":"#in-bounds-index"},
 "in-scope": {"dfnID":"in-scope","dfnText":"in scope","external":false,"refSections":[{"refs":[{"id":"ref-for-in-scope"},{"id":"ref-for-in-scope\u2460"},{"id":"ref-for-in-scope\u2461"}],"title":"5. Declaration and Scope"},{"refs":[{"id":"ref-for-in-scope\u2462"}],"title":"6.4.8. Forming Reference and Pointer Values"},{"refs":[{"id":"ref-for-in-scope\u2463"}],"title":"7. Variable and Value Declarations"},{"refs":[{"id":"ref-for-in-scope\u2464"}],"title":"7.3. var Declarations"},{"refs":[{"id":"ref-for-in-scope\u2465"}],"title":"8.11. Variable Identifier Expression"},{"refs":[{"id":"ref-for-in-scope\u2466"}],"title":"8.12. Formal Parameter Expression"},{"refs":[{"id":"ref-for-in-scope\u2467"},{"id":"ref-for-in-scope\u2468"},{"id":"ref-for-in-scope\u2460\u24ea"}],"title":"8.15. Identifier Expressions for Value Declarations"},{"refs":[{"id":"ref-for-in-scope\u2460\u2460"}],"title":"9.1. Compound Statement"},{"refs":[{"id":"ref-for-in-scope\u2460\u2461"},{"id":"ref-for-in-scope\u2460\u2462"}],"title":"9.4.4. For Statement"},{"refs":[{"id":"ref-for-in-scope\u2460\u2463"}],"title":"10.1. Declaring a User-defined Function"},{"refs":[{"id":"ref-for-in-scope\u2460\u2464"}],"title":"16.1. Constructor Built-in Functions"}],"url":"#in-scope"},
 "increment-statement": {"dfnID":"increment-statement","dfnText":"increment statement","external":false,"refSections":[{"refs":[{"id":"ref-for-increment-statement"},{"id":"ref-for-increment-statement\u2460"}],"title":"14.2.6. Uniformity Rules for Statements"}],"url":"#increment-statement"},
@@ -22149,7 +22146,7 @@ let dfnPanelData = {
 "invocations": {"dfnID":"invocations","dfnText":"invocations","external":false,"refSections":[{"refs":[{"id":"ref-for-invocations"}],"title":"2.1. Shader Lifecycle"},{"refs":[{"id":"ref-for-invocations\u2460"}],"title":"14. Execution"}],"url":"#invocations"},
 "io-attributes": {"dfnID":"io-attributes","dfnText":"IO attributes","external":false,"refSections":[{"refs":[{"id":"ref-for-io-attributes"},{"id":"ref-for-io-attributes\u2460"}],"title":"6.2.10. Structure Types"},{"refs":[{"id":"ref-for-io-attributes\u2461"}],"title":"12.3.1. Inter-stage Input and Output Interface"}],"url":"#io-attributes"},
 "iteration": {"dfnID":"iteration","dfnText":"iteration","external":false,"refSections":[{"refs":[{"id":"ref-for-iteration"},{"id":"ref-for-iteration\u2460"}],"title":"9.4.4. For Statement"},{"refs":[{"id":"ref-for-iteration\u2461"}],"title":"9.4.5. While Statement"},{"refs":[{"id":"ref-for-iteration\u2462"}],"title":"9.4.8. Continue Statement"},{"refs":[{"id":"ref-for-iteration\u2463"}],"title":"9.4.9. Continuing Statement"}],"url":"#iteration"},
-"keyword": {"dfnID":"keyword","dfnText":"keyword","external":false,"refSections":[{"refs":[{"id":"ref-for-keyword"}],"title":"3.4. Tokens"},{"refs":[{"id":"ref-for-keyword\u2460"}],"title":"3.7. Identifiers"},{"refs":[{"id":"ref-for-keyword\u2461"}],"title":"3.8. Context-Dependent Names"},{"refs":[{"id":"ref-for-keyword\u2462"}],"title":"3.8.7. Interpolation Sampling Names"}],"url":"#keyword"},
+"keyword": {"dfnID":"keyword","dfnText":"keyword","external":false,"refSections":[{"refs":[{"id":"ref-for-keyword"}],"title":"3.4. Tokens"},{"refs":[{"id":"ref-for-keyword\u2460"}],"title":"3.7. Identifiers"},{"refs":[{"id":"ref-for-keyword\u2461"}],"title":"3.8. Context-Dependent Names"}],"url":"#keyword"},
 "language-extension": {"dfnID":"language-extension","dfnText":"language extension","external":false,"refSections":[{"refs":[{"id":"ref-for-language-extension"},{"id":"ref-for-language-extension\u2460"}],"title":"3.8.5. Extension Names"},{"refs":[{"id":"ref-for-language-extension\u2461"}],"title":"4.1. Extensions"},{"refs":[{"id":"ref-for-language-extension\u2462"},{"id":"ref-for-language-extension\u2463"},{"id":"ref-for-language-extension\u2464"},{"id":"ref-for-language-extension\u2465"}],"title":"4.1.2. Language Extensions"}],"url":"#language-extension"},
 "language_extension-packed_4x8_integer_dot_product": {"dfnID":"language_extension-packed_4x8_integer_dot_product","dfnText":"packed_4x8_integer_dot_product","external":false,"refSections":[{"refs":[{"id":"ref-for-language_extension-packed_4x8_integer_dot_product"}],"title":"3.8.5. Extension Names"}],"url":"#language_extension-packed_4x8_integer_dot_product"},
 "language_extension-pointer_composite_access": {"dfnID":"language_extension-pointer_composite_access","dfnText":"pointer_composite_access","external":false,"refSections":[{"refs":[{"id":"ref-for-language_extension-pointer_composite_access"}],"title":"3.8.5. Extension Names"}],"url":"#language_extension-pointer_composite_access"},
@@ -22313,8 +22310,8 @@ let dfnPanelData = {
 "requiredtobeuniforms": {"dfnID":"requiredtobeuniforms","dfnText":"RequiredToBeUniform.S","external":false,"refSections":[{"refs":[{"id":"ref-for-requiredtobeuniforms"},{"id":"ref-for-requiredtobeuniforms\u2460"}],"title":"14.2.3. Analyzing the Uniformity Requirements of a Function"},{"refs":[{"id":"ref-for-requiredtobeuniforms\u2461"},{"id":"ref-for-requiredtobeuniforms\u2462"},{"id":"ref-for-requiredtobeuniforms\u2463"},{"id":"ref-for-requiredtobeuniforms\u2464"},{"id":"ref-for-requiredtobeuniforms\u2465"}],"title":"14.2.7. Uniformity Rules for Function Calls"},{"refs":[{"id":"ref-for-requiredtobeuniforms\u2466"}],"title":"14.2.10.3. Composite Value Analysis Limitations"},{"refs":[{"id":"ref-for-requiredtobeuniforms\u2467"}],"title":"14.2.10.5. User-defined Function Calls"}],"url":"#requiredtobeuniforms"},
 "requiredtobeuniformwarning": {"dfnID":"requiredtobeuniformwarning","dfnText":"RequiredToBeUniform.warning","external":false,"refSections":[{"refs":[{"id":"ref-for-requiredtobeuniformwarning"},{"id":"ref-for-requiredtobeuniformwarning\u2460"},{"id":"ref-for-requiredtobeuniformwarning\u2461"}],"title":"14.2.3. Analyzing the Uniformity Requirements of a Function"}],"url":"#requiredtobeuniformwarning"},
 "requires-directive": {"dfnID":"requires-directive","dfnText":"requires-directive","external":false,"refSections":[{"refs":[{"id":"ref-for-requires-directive"},{"id":"ref-for-requires-directive\u2460"},{"id":"ref-for-requires-directive\u2461"},{"id":"ref-for-requires-directive\u2462"}],"title":"4.1.2. Language Extensions"}],"url":"#requires-directive"},
-"reserved-word": {"dfnID":"reserved-word","dfnText":"reserved word","external":false,"refSections":[{"refs":[{"id":"ref-for-reserved-word"}],"title":"3.4. Tokens"},{"refs":[{"id":"ref-for-reserved-word\u2460"}],"title":"3.7. Identifiers"},{"refs":[{"id":"ref-for-reserved-word\u2461"}],"title":"3.8. Context-Dependent Names"},{"refs":[{"id":"ref-for-reserved-word\u2462"}],"title":"3.8.7. Interpolation Sampling Names"}],"url":"#reserved-word"},
-"resolves": {"dfnID":"resolves","dfnText":"resolves","external":false,"refSections":[{"refs":[{"id":"ref-for-resolves"}],"title":"3.8. Context-Dependent Names"},{"refs":[{"id":"ref-for-resolves\u2460"}],"title":"3.8.2. Built-in Value Names"},{"refs":[{"id":"ref-for-resolves\u2461"}],"title":"3.8.3. Diagnostic Rule Names"},{"refs":[{"id":"ref-for-resolves\u2462"}],"title":"3.8.6. Interpolation Type Names"},{"refs":[{"id":"ref-for-resolves\u2463"}],"title":"3.8.7. Interpolation Sampling Names"},{"refs":[{"id":"ref-for-resolves\u2464"}],"title":"4.1.1. Enable Extensions"},{"refs":[{"id":"ref-for-resolves\u2465"}],"title":"4.1.2. Language Extensions"},{"refs":[{"id":"ref-for-resolves\u2466"},{"id":"ref-for-resolves\u2467"}],"title":"5. Declaration and Scope"},{"refs":[{"id":"ref-for-resolves\u2468"}],"title":"6.2.9. Array Types"},{"refs":[{"id":"ref-for-resolves\u2460\u24ea"}],"title":"6.4.8. Forming Reference and Pointer Values"},{"refs":[{"id":"ref-for-resolves\u2460\u2460"}],"title":"7.2. Value Declarations"},{"refs":[{"id":"ref-for-resolves\u2460\u2461"}],"title":"7.3. var Declarations"},{"refs":[{"id":"ref-for-resolves\u2460\u2462"}],"title":"8.1.1. const Expressions"},{"refs":[{"id":"ref-for-resolves\u2460\u2463"},{"id":"ref-for-resolves\u2460\u2464"}],"title":"8.1.2. override Expressions"},{"refs":[{"id":"ref-for-resolves\u2460\u2465"}],"title":"8.11. Variable Identifier Expression"},{"refs":[{"id":"ref-for-resolves\u2460\u2466"}],"title":"8.12. Formal Parameter Expression"},{"refs":[{"id":"ref-for-resolves\u2460\u2467"},{"id":"ref-for-resolves\u2460\u2468"},{"id":"ref-for-resolves\u2461\u24ea"}],"title":"8.15. Identifier Expressions for Value Declarations"},{"refs":[{"id":"ref-for-resolves\u2461\u2460"}],"title":"8.16. Enumeration Expressions"},{"refs":[{"id":"ref-for-resolves\u2461\u2461"},{"id":"ref-for-resolves\u2461\u2462"},{"id":"ref-for-resolves\u2461\u2463"},{"id":"ref-for-resolves\u2461\u2464"}],"title":"8.17. Type Expressions"},{"refs":[{"id":"ref-for-resolves\u2461\u2465"},{"id":"ref-for-resolves\u2461\u2466"},{"id":"ref-for-resolves\u2461\u2467"}],"title":"10.4.1.1. Root Identifier"},{"refs":[{"id":"ref-for-resolves\u2461\u2468"},{"id":"ref-for-resolves\u2462\u24ea"},{"id":"ref-for-resolves\u2462\u2460"},{"id":"ref-for-resolves\u2462\u2461"}],"title":"12.3. Shader Interface"},{"refs":[{"id":"ref-for-resolves\u2462\u2462"}],"title":"14.2.4. Pointer Desugaring"},{"refs":[{"id":"ref-for-resolves\u2462\u2463"},{"id":"ref-for-resolves\u2462\u2464"}],"title":"14.2.5. Function-scope Variable Value Analysis"},{"refs":[{"id":"ref-for-resolves\u2462\u2465"},{"id":"ref-for-resolves\u2462\u2466"},{"id":"ref-for-resolves\u2462\u2467"},{"id":"ref-for-resolves\u2462\u2468"},{"id":"ref-for-resolves\u2463\u24ea"},{"id":"ref-for-resolves\u2463\u2460"},{"id":"ref-for-resolves\u2463\u2461"},{"id":"ref-for-resolves\u2463\u2462"},{"id":"ref-for-resolves\u2463\u2463"},{"id":"ref-for-resolves\u2463\u2464"},{"id":"ref-for-resolves\u2463\u2465"},{"id":"ref-for-resolves\u2463\u2466"},{"id":"ref-for-resolves\u2463\u2467"},{"id":"ref-for-resolves\u2463\u2468"},{"id":"ref-for-resolves\u2464\u24ea"}],"title":"14.2.8. Uniformity Rules for Expressions"},{"refs":[{"id":"ref-for-resolves\u2464\u2460"}],"title":"16.1. Constructor Built-in Functions"}],"url":"#resolves"},
+"reserved-word": {"dfnID":"reserved-word","dfnText":"reserved word","external":false,"refSections":[{"refs":[{"id":"ref-for-reserved-word"}],"title":"3.4. Tokens"},{"refs":[{"id":"ref-for-reserved-word\u2460"}],"title":"3.7. Identifiers"},{"refs":[{"id":"ref-for-reserved-word\u2461"}],"title":"3.8. Context-Dependent Names"}],"url":"#reserved-word"},
+"resolves": {"dfnID":"resolves","dfnText":"resolves","external":false,"refSections":[{"refs":[{"id":"ref-for-resolves"}],"title":"3.8. Context-Dependent Names"},{"refs":[{"id":"ref-for-resolves\u2460"}],"title":"4.1.1. Enable Extensions"},{"refs":[{"id":"ref-for-resolves\u2461"}],"title":"4.1.2. Language Extensions"},{"refs":[{"id":"ref-for-resolves\u2462"},{"id":"ref-for-resolves\u2463"}],"title":"5. Declaration and Scope"},{"refs":[{"id":"ref-for-resolves\u2464"}],"title":"6.2.9. Array Types"},{"refs":[{"id":"ref-for-resolves\u2465"}],"title":"6.4.8. Forming Reference and Pointer Values"},{"refs":[{"id":"ref-for-resolves\u2466"}],"title":"7.2. Value Declarations"},{"refs":[{"id":"ref-for-resolves\u2467"}],"title":"7.3. var Declarations"},{"refs":[{"id":"ref-for-resolves\u2468"}],"title":"8.1.1. const Expressions"},{"refs":[{"id":"ref-for-resolves\u2460\u24ea"},{"id":"ref-for-resolves\u2460\u2460"}],"title":"8.1.2. override Expressions"},{"refs":[{"id":"ref-for-resolves\u2460\u2461"}],"title":"8.11. Variable Identifier Expression"},{"refs":[{"id":"ref-for-resolves\u2460\u2462"}],"title":"8.12. Formal Parameter Expression"},{"refs":[{"id":"ref-for-resolves\u2460\u2463"},{"id":"ref-for-resolves\u2460\u2464"},{"id":"ref-for-resolves\u2460\u2465"}],"title":"8.15. Identifier Expressions for Value Declarations"},{"refs":[{"id":"ref-for-resolves\u2460\u2466"}],"title":"8.16. Enumeration Expressions"},{"refs":[{"id":"ref-for-resolves\u2460\u2467"},{"id":"ref-for-resolves\u2460\u2468"},{"id":"ref-for-resolves\u2461\u24ea"},{"id":"ref-for-resolves\u2461\u2460"}],"title":"8.17. Type Expressions"},{"refs":[{"id":"ref-for-resolves\u2461\u2461"},{"id":"ref-for-resolves\u2461\u2462"},{"id":"ref-for-resolves\u2461\u2463"}],"title":"10.4.1.1. Root Identifier"},{"refs":[{"id":"ref-for-resolves\u2461\u2464"},{"id":"ref-for-resolves\u2461\u2465"},{"id":"ref-for-resolves\u2461\u2466"},{"id":"ref-for-resolves\u2461\u2467"}],"title":"12.3. Shader Interface"},{"refs":[{"id":"ref-for-resolves\u2461\u2468"}],"title":"14.2.4. Pointer Desugaring"},{"refs":[{"id":"ref-for-resolves\u2462\u24ea"},{"id":"ref-for-resolves\u2462\u2460"}],"title":"14.2.5. Function-scope Variable Value Analysis"},{"refs":[{"id":"ref-for-resolves\u2462\u2461"},{"id":"ref-for-resolves\u2462\u2462"},{"id":"ref-for-resolves\u2462\u2463"},{"id":"ref-for-resolves\u2462\u2464"},{"id":"ref-for-resolves\u2462\u2465"},{"id":"ref-for-resolves\u2462\u2466"},{"id":"ref-for-resolves\u2462\u2467"},{"id":"ref-for-resolves\u2462\u2468"},{"id":"ref-for-resolves\u2463\u24ea"},{"id":"ref-for-resolves\u2463\u2460"},{"id":"ref-for-resolves\u2463\u2461"},{"id":"ref-for-resolves\u2463\u2462"},{"id":"ref-for-resolves\u2463\u2463"},{"id":"ref-for-resolves\u2463\u2464"},{"id":"ref-for-resolves\u2463\u2465"}],"title":"14.2.8. Uniformity Rules for Expressions"},{"refs":[{"id":"ref-for-resolves\u2463\u2466"}],"title":"16.1. Constructor Built-in Functions"}],"url":"#resolves"},
 "resource": {"dfnID":"resource","dfnText":"resource","external":false,"refSections":[{"refs":[{"id":"ref-for-resource"},{"id":"ref-for-resource\u2460"},{"id":"ref-for-resource\u2461"}],"title":"1.1. Overview"},{"refs":[{"id":"ref-for-resource\u2462"}],"title":"2.1. Shader Lifecycle"},{"refs":[{"id":"ref-for-resource\u2463"}],"title":"2.2. Errors"},{"refs":[{"id":"ref-for-resource\u2464"},{"id":"ref-for-resource\u2465"}],"title":"7.3. var Declarations"},{"refs":[{"id":"ref-for-resource\u2466"}],"title":"11.2. binding"},{"refs":[{"id":"ref-for-resource\u2467"}],"title":"11.6. group"},{"refs":[{"id":"ref-for-resource\u2468"}],"title":"12.1. Shader Stages"},{"refs":[{"id":"ref-for-resource\u2460\u24ea"}],"title":"12.3. Shader Interface"},{"refs":[{"id":"ref-for-resource\u2460\u2460"}],"title":"13.5.2. Memory Model Reference"}],"url":"#resource"},
 "resource-interface-of-a-shader": {"dfnID":"resource-interface-of-a-shader","dfnText":"resource interface of a shader","external":false,"refSections":[{"refs":[{"id":"ref-for-resource-interface-of-a-shader"}],"title":"1.1. Overview"},{"refs":[{"id":"ref-for-resource-interface-of-a-shader\u2460"}],"title":"7.3. var Declarations"},{"refs":[{"id":"ref-for-resource-interface-of-a-shader\u2461"}],"title":"9.2.2. Phony Assignment"}],"url":"#resource-interface-of-a-shader"},
 "result": {"dfnID":"result","dfnText":"Result","external":false,"refSections":[{"refs":[{"id":"ref-for-result"},{"id":"ref-for-result\u2460"},{"id":"ref-for-result\u2461"}],"title":"14.2.7. Uniformity Rules for Function Calls"}],"url":"#result"},
